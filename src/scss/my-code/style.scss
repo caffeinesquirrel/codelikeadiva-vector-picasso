@@ -6,6 +6,10 @@ $white: #FFF;
     fill: #58595b;
 }
 
+#tile {
+    stroke-width: 0.2;
+}
+
 #tile-base {
     fill: $darkBlue;
 }
@@ -13,9 +17,23 @@ $white: #FFF;
 #small {
     fill: $white;
     stroke: $lightBlue;
-    stroke-width: 0.2;
 }
 
 #middle {
+    fill: $darkBlue;
+    stroke: $lightBlue;
 
+    .circle {
+      fill: $white;
+      stroke: $white;
+    }
+}
+
+#big {
+    fill: $lightBlue;
+    stroke: $darkBlue;
+
+    .circle {
+        fill: $white;
+    }
 }
