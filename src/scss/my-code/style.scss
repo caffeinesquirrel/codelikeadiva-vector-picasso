@@ -1,0 +1,21 @@
+$darkBlue: #042373;
+$lightBlue: #a5c1e7;
+$white: #FFF;
+
+#base {
+    fill: #58595b;
+}
+
+#tile-base {
+    fill: $darkBlue;
+}
+
+#small {
+    fill: $white;
+    stroke: $lightBlue;
+    stroke-width: 0.2;
+}
+
+#middle {
+
+}
