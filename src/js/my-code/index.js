@@ -16,7 +16,7 @@ class Artwork {
     const maxHeight = Math.ceil(svgBound.height / SIZE);
     const maxWidth = Math.ceil(svgBound.width / SIZE);
 
-    const background = `<rect id="base" width="${svgBound.width}" height="${svgBound.height}"/>`;
+    const background = `<rect width="${svgBound.width}" height="${svgBound.height}" fill="#58595b"/>`;
 
     let tiles = '';
     for (let j = 0; j < maxHeight; j++) {
